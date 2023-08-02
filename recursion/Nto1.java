@@ -1,0 +1,18 @@
+package com.praveen.recursion;
+
+public class Nto1 {
+    static void fun(int n){
+        if(n == 0){
+            return ;
+        }
+        System.out.println(n);
+        //print first then  call the function..
+
+        fun(n-1);
+
+    }
+    public static void main(String[] args) {
+        fun(5);
+
+    }
+}
